@@ -1,12 +1,3 @@
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-# Primo esempio ---> Creazione di un hash 
-# import hashlib
-# hash = hashlib.sha256("Secret message".encode()).hexdigest() # Cambiando il dato cambia l'hash
-# print(hash)
-
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
 from block import Block
 
 blockchain  = []
@@ -26,6 +17,3 @@ print(second_block.block_hash)
 
 print("Block Hash: Third Block")
 print(third_block.block_hash)
-
-# Cambiando le informazioni all' intenro del Genesis Block tutti i seguenti hash vengono modificati 
-
